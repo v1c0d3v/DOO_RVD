@@ -1,0 +1,270 @@
+@charset "ISO-8859-1";
+
+
+body {
+	background-image:url("img/fondoindex.jpg");
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	
+}
+
+#top{
+	font-size: 35px;
+	text-align: center;
+	font-family: 
+}
+
+.box1{
+	width: 360px;
+	height: 250px;
+	background-image: url("img/header.png");
+	font-family: "Chivo";
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 130px;
+	margin-top: 5px;	
+	margin-bottom: 15px;
+	padding: 10px;
+}
+
+.boxVision{
+	width: 350px;
+	height: auto;
+	background-image: url("img/header.png");
+	font-family: "Chivo";
+	font-size: 20px;
+	text-align: center;
+	float: left;
+	margin-left: 130px;
+	margin-top: 5px;	
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.box2 {
+	float: right;
+	width: 600px;
+	height: auto;
+	background-image: url("img/header.png");
+	text-align: center;
+	margin-right: 130px;
+	padding: 0px 15px;
+	margin-bottom: 30px;
+
+}
+
+.box2 h1{
+	margin-top: 0px;
+	font-size: 35px;
+	font-family: "Chivo";
+	font-weight: bold;
+	color: #003256;
+}
+
+
+.box2 p{
+	font-size: 22px;
+	font-family: "Karla";
+	color: #000;
+	
+}
+
+.box3 h1{
+	margin-top: 0px;
+	font-size: 35px;
+	font-family: "Chivo";
+	font-weight: bold;
+	color: #003256;
+}
+
+
+.box3 {
+	width: 1010px;
+	height: auto;
+	background-image: url("img/header.png");
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 135px;
+	margin-right: 135px;
+	padding: 0px 15px;
+	margin-bottom: 40px;
+	font-size: 15px;
+	font-family: "Karla";
+	color: #000;
+}
+
+#login1{
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 20px;
+	border-radius: 5px;
+	background-color: #7baed4;
+}
+
+.inicio{
+	margin-top: 0px;
+	font-family: 'PT Sans Narrow';
+}
+
+.login-box{
+	width: 320px;
+	height: 420px;
+	background-image: url("img/loginbox.png") ;
+	color: 003a5d;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.login-box .icono{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin-top: -230px; 
+	margin-let: -230px;
+}
+
+
+.login-box h1 {
+	margin: 0px;
+	padding-top: 90px;
+	padding-bottom: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.login-box label {
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.login-box [type="text"], .login-box [type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+
+.login-box [type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	font-size: 18px;
+	border-radius: 20px;
+	background-color: #29abe2;
+}
+.login-box [type="submit"]:hover {
+	background-color: #29abe2;
+	opacity: 0.5;
+}
+
+.menu{
+	height: 50px;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	
+}
+
+ul {
+	height: 30px;
+	display:block;
+	margin:0;
+	padding:0px;
+	float: center;
+	font-size: 16px;
+	font-family: 'Archivo';
+}
+
+ul li{
+	float:left;
+	display: block;
+	padding:0px;
+	font-size: 16px;
+}
+
+ul li ul {
+	display: none;
+	padding:0px;
+	font-size: 16px;
+}
+
+ul li:hover ul{
+	display: block;
+}
+
+ul li:hover ul li{
+	float: none;
+}
+
+ul li a{
+	text-decoration: none;
+	background: #29abe2;
+	color: white; 
+	display: block;
+	padding: 5px 15px 5px 15px;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+
+ul li a:hover {
+	background-color: #003256;
+	
+}
+
+footer {
+	background-image: url("img/header.png");
+	width: 100%;
+	position: relative;
+    margin-top: -50px;
+	height: 70px;
+    padding:5px 0px;
+    clear: both;
+	text-align: center;
+	color: #000;
+	font-family: 'Archivo';
+}
+
+.integrantes {
+	width: auto;
+	height: auto;
+	background-image: url("img/header.png");
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 135px;
+	margin-right: 135px;
+	padding: 0px 15px;
+	margin-bottom: 40px;
+	
+}
+
+.integrantes p{
+	font-size: 20px;
+	font-family: "Karla";
+	color: #000;
+	
+}
+
